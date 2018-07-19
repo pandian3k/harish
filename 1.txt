@@ -1,8 +1,11 @@
 123456123
 
+<<<<<<< HEAD
 
 abc
 
 987654321
 
 
+=======
+>>>>>>> parent of f5ec9ca... Update 1.txt
