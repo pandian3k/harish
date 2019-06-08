@@ -2,13 +2,6 @@ git add
 git commit 
 git push
 git diff
-
-
-
-<<<<<<< HEAD
-
-
 git remove
-=======
+
 123456
->>>>>>> cb00347995f9e281a8a9698de4afa4a917d4bf57
