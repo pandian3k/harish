@@ -1,3 +1,57 @@
-hello this is add
 
-hello this is commit
+https://aws.amazon.com/products/databases/
+
+***********************************************
+Relational Database (SQL):-
+
+Amazon Aurora
+MySQL, PostgreSQL
+
+Amazon RDS
+MySQL, PostgreSQL, MariaDB, Oracle, SQL Server
+
+Amazon Redshift
+
+sTRUCTURED Data (schema)
+
+Data is normalized and spread across multiple tables
+
+SQL Query Language
+ACID (Atomicity Consistency isolation Durability )Compliant 
+Vertical Scaling and Read Replicas
+OLTP/OLAP   Online Transaction Processing system / Online Analytical Processing system
+(https://techdifferences.com/difference-between-oltp-and-olap.html)
+
+
+MySQL, PostgreSQL, Oracle, SQL Server
+
+***********************************
+
+NoSQL Databases:
+Semi-structured Data (Schema-less)
+Flat Table Structure
+API Queries
+High Transaction Rates
+Horizonal Scaling
+Four Type: Column, Key-Value,Document,Graph
+
+MangoDB,CouchDB,HBase,Cassandra,Riak
+
+******************************************************
+
+RDSEssentials:
+RDS is a fully managed Relational Database service:
+* It is fully-managed: it does not allow access to the underlying operating system.
+* Connections to the RDS database server look the same as connecting to a traditional on-premise database instance.
+* You can enabe Multi-AZ deployments for backu and high available solutions.
+* Utilize Read Replicas (MySQL/PostgreSQL/Aurora) to help offload hits on your primary database.
+OLTP Database
+MySQL, PostgreSQL, Oracle, SQL Server 
+
+	Aurora : MySQL or postgresSQL compatible. and it has 5 times better performance then MySQL and lower price point than commercial database.5Xfaster than MySQL and 3Xfaster than postgresSQL. Continuous backup upt to 15 read replicas across 3 AZs.
+	replication lag of a single-digit milliseconds. Baacktrack in Seconds. Multi-Master option.
+
+	Benefits: Automatic minor updates , Automatic backups (point-in-time snapshots), server/platform managed by AWS (pass), Multi-AZ-with single click and Automatic recovery in event of a failover. Auto scaling. No management of instances or clusters. Scales to Zero.
+	
+	RDS Multi-AZ-Failover:
+	Multi-AZ failoversynchronously
